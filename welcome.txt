@@ -1,0 +1,8 @@
+1- Inicializo 2 variáveis (user_name e host_name) usando $USER e $(hostname) para obter respectivamente o nome de usuário e o nome da máquina;
+2- Exibo a mensagem de boas vindas usando echo e retornando os valores das variáveis usando $;
+3- Exibo as informações do clima usando curl wttr.in/?0;
+4- Registro o tempo de execução e o nome do usuário no arquivo ~/.welcome.data usando echo e >>;
+5- Salvo o arquivo welcome.sh e executo o comando chmod +x welcome.sh;
+6- Executo o comando pwd para descobrir onde o arquivo welcome.sh está;
+7- Crio o softlink usando o comando ln -s (passo 6) /usr/local/bin/welcome;
+8- Adiciono o comando welcome no arquivo ~/.bashrc utilizando o comando echo "welcome" >> ~/.bashrc;
