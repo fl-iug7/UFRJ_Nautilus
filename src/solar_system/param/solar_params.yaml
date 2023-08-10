@@ -1,0 +1,33 @@
+star_radius: 0.0  # Estrela imóvel
+planet_params:
+  - name: "terra" #Nome do planeta
+    radius: 5.0 #Raio do planeta
+    satellite_radius: 1.0 #Raio do satélite
+    planet_rotation_direction: 1  #Sentido para rotação do planeta
+    satellite_rotation_direction: -1  #Sentido para rotação do satélite
+    planet_rotation_rate: 0.05  #Taxa de rotação do planeta 
+    satellite_rotation_rate: 1  #Taxa de rotação do satélite 
+
+  - name: "marte"
+    radius: 8.0
+    satellite_radius: 1.5
+    planet_rotation_direction: -1
+    satellite_rotation_direction: 1
+    planet_rotation_rate: 0.03
+    satellite_rotation_rate: 0.5
+
+  - name: "jupiter"
+    radius: 12.0
+    satellite_radius: 2.0
+    planet_rotation_direction: 1
+    satellite_rotation_direction: 1
+    planet_rotation_rate: 0.02
+    satellite_rotation_rate: 0.3
+
+  - name: "saturno"
+    radius: 16.0
+    satellite_radius: 2.5
+    planet_rotation_direction: -1
+    satellite_rotation_direction: -1
+    planet_rotation_rate: 0.01
+    satellite_rotation_rate: 0.2
